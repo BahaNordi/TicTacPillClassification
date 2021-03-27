@@ -7,7 +7,7 @@ from train_utils.train_config import config
 from PIL import Image
 
 
-# data.Dataset class ast va implement def __len__ va   def __getitem__ ejbari ast
+
 class TicTacLoader(data.Dataset):
 
     def __init__(self, root_dir, tictac_file_list, augmentations=None, transform_image=None):
